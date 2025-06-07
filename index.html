@@ -30,19 +30,9 @@
     font-size: 1.1rem;
     opacity: 0.85;
   }
-  main {
-    max-width: 720px;
-    margin: 30px auto 50px;
-    background: white;
-    padding: 25px 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
-  }
-  h2 {
-    border-bottom: 2px solid #4a90e2;
-    padding-bottom: 8px;
-    margin-top: 40px;
-    font-weight: 600;
+  .discord-button {
+    text-align: center;
+    margin: 20px 0 0;
   }
   a.button {
     display: inline-block;
@@ -58,9 +48,23 @@
   a.button:hover {
     background-color: #357ABD;
   }
+  main {
+    max-width: 720px;
+    margin: 30px auto 50px;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+  }
+  h2 {
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 8px;
+    margin-top: 40px;
+    font-weight: 600;
+  }
   .video-wrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 ratio */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     margin-top: 20px;
@@ -100,6 +104,12 @@
   <p>Interactive story language & editor — Create your own stories with ease!</p>
 </header>
 
+<div class="discord-button">
+  <a href="https://discord.gg/8VBExntBst" class="button" target="_blank" rel="noopener noreferrer">
+    Join the Discord Server
+  </a>
+</div>
+
 <main>
   <section id="tutorial">
     <h2>📺 Tutorial Video </h2>
@@ -121,9 +131,9 @@
 
   <section id="download">
     <h2>⬇️ Download</h2>
-   <a href="https://drive.google.com/uc?export=download&id=17-7iia7WEybyAH931zAaPMe00I4f9oqK" class="button" download>
-  Download Scriptr Editor
-</a>
+    <a href="https://drive.google.com/uc?export=download&id=17-7iia7WEybyAH931zAaPMe00I4f9oqK" class="button" download>
+      Download Scriptr Editor
+    </a>
 
     <p style="margin-top: 10px; font-size: 0.9rem; color: #555;">
       Compatible with Windows. <strong>No malware</strong>, just a simple interactive story editor.
